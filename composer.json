@@ -2,5 +2,10 @@
     "name": "jaritt/composer-playground",
     "description": "This is a playground for getting used to the composer package system.",
     "type": "project",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Jaritt\\HelloWorld\\": "src/"
+        }
+    }
 }
